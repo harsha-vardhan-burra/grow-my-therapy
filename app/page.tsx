@@ -528,7 +528,7 @@ export default function RedesignPage() {
             <div className="lg:col-span-7 space-y-4">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold tracking-wider uppercase">
                 <Sparkles className="w-3.5 h-3.5" />
-                <span>Brand-New Section · The Practice Environment</span>
+                <span>The Practice Environment · Santa Monica</span>
               </div>
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-[46px] leading-tight text-charcoal font-medium">
                 A Calm, Light-Filled Sanctuary in{" "}
@@ -735,23 +735,20 @@ export default function RedesignPage() {
             </button>
           </div>
 
-          {/* Col 4: Evaluation & Reference Clone Link */}
+          {/* Col 4: Practice Hours & Care Access */}
           <div className="space-y-3">
             <p className="font-semibold text-charcoal uppercase tracking-wider text-xs">
-              Assignment Deliverables
+              Practice Hours
             </p>
-            <div className="p-4 bg-sand/60 border border-borderLinen rounded-2xl space-y-2 text-xs text-sage">
-              <p className="font-medium text-charcoal">Looking for the Reference Clone?</p>
-              <p>
-                The 1:1 replication of Conejo Valley Family Counseling is fully
-                implemented.
-              </p>
-              <Link
-                href="/clone"
-                className="inline-block mt-1 font-semibold text-secondary hover:text-secondary-hover underline"
-              >
-                Switch to Homepage Clone →
-              </Link>
+            <div className="space-y-2 text-sage text-sm">
+              <p>Monday – Thursday: 9:00am – 6:00pm</p>
+              <p>Friday: 9:00am – 2:00pm</p>
+              <p className="text-xs text-sage/80 pt-1">Evenings &amp; Telehealth by arrangement</p>
+              <div className="pt-2">
+                <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-xs rounded-full font-medium">
+                  Accepting Adult Inquiries
+                </span>
+              </div>
             </div>
           </div>
         </div>

@@ -15,21 +15,6 @@ export default function CloneNavbar() {
 
   return (
     <>
-      {/* Evaluation Mode Bar */}
-      <div className="bg-[#1C2420] text-linen px-4 py-2 text-center text-xs md:text-sm font-sans flex items-center justify-between z-50 relative border-b border-borderLinen/20">
-        <div className="flex items-center gap-2 mx-auto">
-          <span className="inline-block w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-          <span className="font-medium text-amber-200 uppercase tracking-wider text-[11px]">Phase 1 & 2 Deliverable:</span>
-          <span>Conejo Valley Counseling <strong>Reference Homepage Clone</strong></span>
-        </div>
-        <Link
-          href="/"
-          className="ml-4 bg-primary hover:bg-primary-hover text-linen px-3 py-1 rounded text-xs font-semibold tracking-wide transition shrink-0 hidden sm:inline-block"
-        >
-          View Dr. Maya Reynolds Redesign →
-        </Link>
-      </div>
-
       {/* Main Header */}
       <header className="sticky top-0 z-40 bg-[#F5F3ED] border-b border-[#E8E4DC] transition-all">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 h-24 flex items-center justify-between">
@@ -114,12 +99,6 @@ export default function CloneNavbar() {
 
           {/* Mobile Menu Button */}
           <div className="flex items-center gap-3 lg:hidden">
-            <Link
-              href="/"
-              className="text-xs bg-primary text-linen px-2.5 py-1.5 rounded font-medium sm:hidden"
-            >
-              Redesign →
-            </Link>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-2 text-[#2A2A2A] focus:outline-none"
