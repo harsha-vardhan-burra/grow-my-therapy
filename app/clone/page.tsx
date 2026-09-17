@@ -50,12 +50,12 @@ export default function ClonePage() {
         <div className="max-w-[1340px] mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Text Column (7 cols) */}
           <div className="lg:col-span-7 space-y-6 max-w-2xl">
-            <p className="text-xs md:text-[13px] font-semibold tracking-[0.15em] text-[#555047] uppercase">
+            <p className="font-bold italic uppercase tracking-[0.18em] text-[12px] text-[#2A2A2A]">
               Online & In-Person Counseling in Newbury Park & Across CA
             </p>
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-[58px] leading-[1.12] text-[#2A2A2A]">
               Rebuild your foundation on solid ground and finally begin to{" "}
-              <span className="italic font-normal">thrive.</span>
+              <span className="font-bold italic text-[#1F2220]">thrive</span>.
             </h1>
             <p className="text-base sm:text-lg text-[#555047] leading-relaxed pt-2">
               Specialized therapy for adults, couples, teens, and children to
@@ -73,7 +73,7 @@ export default function ClonePage() {
 
           {/* Right Imagery Collage (5 cols) */}
           <div className="lg:col-span-5 relative flex justify-center lg:justify-end items-center">
-            <div className="relative w-full max-w-[460px] h-[480px] sm:h-[540px]">
+            <div className="relative w-full max-w-[460px] h-[480px] sm:h-[440px] md:h-[480px] lg:h-[540px]">
               {/* Back Image (Arch top) */}
               <div className="absolute top-0 right-0 w-[68%] h-[82%] rounded-t-[140px] rounded-b-2xl overflow-hidden shadow-md">
                 <Image
