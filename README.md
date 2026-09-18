@@ -149,13 +149,3 @@ grow-my-therapy/
 
 ---
 
-## 🤝 Evaluation Rubric & Quality Highlights
-
-| Evaluation Criteria | Weight | Implementation Detail | Status |
-| :--- | :---: | :--- | :---: |
-| **UI Cloning Accuracy** | **25%** | Complete 11-section replication at `/clone` matching Conejo Valley Counseling: dual-arch hero, who we help 3-col grid, dark quote banner, specialty cards, and full 4-col footer. | **9.2 / 10** |
-| **Theme & Design Sense** | **25%** | Bespoke coastal modernism for Dr. Maya Reynolds at `/` with Deep Cypress (`#283E34`), Terracotta Clay (`#A3654E`), and Alabaster Linen (`#FAF8F5`). Architectural arch framing. | **9.5 / 10** |
-| **Copywriting & Imagery** | **10%** | 100% grounded in `Dr. Maya Reynolds, PsyD.docx`. Verified headshot + verified office photography. Zero hallucinated claims or credentials. | **9.6 / 10** |
-| **New Section Creativity** | **10%** | Custom "Our Office" section featuring editorial 3-image composition, interactive inspection lightbox, and spatial amenity cards. | **9.5 / 10** |
-| **Communication & Polish** | **30%** | Reference-matching bold-italic eyebrow and accented `thrive` micro-typography, tablet-optimized collage dimensions, comprehensive documentation, and 0-error production build. | **9.4 / 10** |
-| **Composite Score** | **100%** | **Distinction / Senior Frontend Intern Deliverable** | **9.44 / 10** |
